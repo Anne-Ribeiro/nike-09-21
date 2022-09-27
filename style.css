@@ -25,6 +25,25 @@ footer {
   text-align: center;
 }
 
+/** Banner **/
+main{
+  background: url(img/background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.destaque{
+height: 50vh;
+}
+.conteudo{
+  background: url(img/bgNike.png);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/** Fim do Banner **/
+
 #social {
   margin-bottom: 25px;
 }
@@ -36,6 +55,11 @@ footer {
         background-color: #ffff00;
     }
     */
+
+    /* Banner */
+    main{
+      height: 100vh;
+    }
 
   /* Rodapé */
   .flexFooter {
@@ -78,7 +102,7 @@ footer {
     */
 
     /** Background video **/
-
+/*
 .video-background-holder {
   position: relative;
   background-color: black;
@@ -118,6 +142,6 @@ footer {
   opacity: 0.5;
   z-index: 1;
 }
-
+*/
 /** End Background video */
 }
