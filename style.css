@@ -62,15 +62,36 @@ height: 50vh;
     }
 
   /* Rodapé */
-  .flexFooter {
+  /*.flexFooter {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }*/
+
+  .flexFooter {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   #social {
     margin: 0;
   }
+}
+
+.flexDestaque{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin-top: 25px;
+
+}
+
+.destaque{
+  padding: 0px 0px 25px 0px; /* top right bottom left*/
 }
 
 /* Tablet Portrait */
