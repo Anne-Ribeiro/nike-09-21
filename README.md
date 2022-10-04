@@ -1,3 +1,4 @@
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fgithub.com%2FAnne-Ribeiro%2Fnike-09-21.git)
 # 2EMIA
 Repositório de aula.
 Descrição
